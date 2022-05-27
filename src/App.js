@@ -4,7 +4,7 @@ import MovieGrid from "./MovieGrid";
 import SearchIcon from "./search.svg";
 import "./App.css";
 
-const API_URL = "http://www.omdbapi.com?apikey=91902fa5";
+const API_URL = "https://www.omdbapi.com?apikey=91902fa5";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
